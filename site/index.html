@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhishek Dwivedi — Computational Biologist</title>
+<meta name="description" content="Abhishek Dwivedi — Bioinformatics graduate specializing in RNA-Seq, variant analysis, multi-omics integration and ML for genomics.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="topbar">
+  <a class="brand" href="#top">
+    <span class="brand-mark">AD</span>
+    <span class="brand-text">Abhishek Dwivedi</span>
+  </a>
+
+  <nav class="navlinks" id="navlinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Bioinformatics Projects</a>
+    <a href="#webdev">Web Development</a>
+    <a href="#experience">Experience</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="topbar-actions">
+    <a class="icon-link" href="https://github.com/ABHIVEDI11" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.9.57.1.78-.25.78-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.73-1.56-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.58.24 2.75.12 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.21.66.79.55A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+    </a>
+    <a class="icon-link" href="https://www.linkedin.com/in/abhivedi7754/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
+    </a>
+    <a class="resume-btn" href="Abhishek_Dwivedi_CV_ComputationalBiologist.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
+  </div>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I'm Abhishek 👋</h1>
+        <p class="lede">
+          A bioinformatics graduate who builds reproducible pipelines for RNA-Seq, whole-genome sequencing
+          and multi-omics data, and applies machine learning to turn genomic data into clear insight.
+          I also build full-stack web apps on the side.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+
+        <div class="hero-links">
+          <a href="#skills"><span class="emoji">🧬</span> Skills</a>
+          <a href="#webdev"><span class="emoji">💻</span> Web Dev</a>
+          <a href="#certifications"><span class="emoji">📜</span> Certifications</a>
+          <a href="#contact"><span class="emoji">✉️</span> Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-figure">
+        <img src="images/profile.jpg" alt="Abhishek Dwivedi" class="hero-photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <h2>About me</h2>
+    <p class="section-text">
+      I work at the intersection of sequencing data and statistical reasoning — RNA-Seq, whole-genome sequencing,
+      variant calling, and multi-omics integration. My pipelines are built in Python and R, designed to be
+      reproducible and clearly documented.
+    </p>
+    <p class="section-text">
+      On the machine-learning side, I work on genomic classification and biomarker-style feature discovery using
+      PCA, Random Forest, SVM and explainable AI. I also carry depth in computational drug discovery — molecular
+      docking, molecular dynamics, and QM/MM modelling.
+    </p>
+    <p class="section-text">
+      Outside the lab, I build small full-stack web apps for fun and practice — see the
+      <a href="#webdev">Web Development</a> section below. I'm currently finishing my M.Sc. in Bioinformatics
+      at the Central University of Himachal Pradesh, and I'm open to remote roles and relocation.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <h2>Skills</h2>
+
+    <div class="skill-groups">
+
+      <article class="skill-card">
+        <div class="skill-emoji">🧬</div>
+        <h3>Genomics &amp; NGS</h3>
+        <p>RNA-Seq, WGS, variant analysis/calling, BLAST, sequence alignment, phylogenetics, primer design.</p>
+        <ul class="tag-list">
+          <li>FastQC</li><li>MultiQC</li><li>Trimmomatic</li><li>HISAT2</li><li>STAR</li><li>Salmon</li><li>SAMtools</li><li>BEDTools</li>
+        </ul>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-emoji">🦠</div>
+        <h3>Multi-Omics &amp; Microbial Genomics</h3>
+        <p>16S rRNA amplicon profiling, AMR gene profiling, virulence factor analysis, MLST typing, comparative genomics.</p>
+        <ul class="tag-list">
+          <li>DADA2</li><li>CARD</li><li>VFDB</li><li>MLST</li>
+        </ul>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-emoji">🤖</div>
+        <h3>Machine Learning &amp; Biomarker Discovery</h3>
+        <p>Classification, regression, feature selection, dimensionality reduction, and explainable AI for genomic data.</p>
+        <ul class="tag-list">
+          <li>PCA</li><li>Random Forest</li><li>SVM</li><li>Neural Networks</li><li>XAI</li>
+        </ul>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-emoji">🛠️</div>
+        <h3>Programming &amp; Tooling</h3>
+        <p>Comfortable across the full pipeline stack — from raw reads to a reproducible, version-controlled report.</p>
+        <ul class="tag-list">
+          <li>Python</li><li>pandas</li><li>scikit-learn</li><li>R</li><li>DESeq2</li><li>Bioconductor</li><li>ggplot2</li><li>SQL</li><li>C++</li><li>Linux / Bash</li><li>Git</li><li>HPC</li>
+        </ul>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-emoji">💊</div>
+        <h3>Computational Drug Discovery</h3>
+        <p>Structure-based modelling of protein–ligand systems, from docking through enhanced-sampling MD.</p>
+        <ul class="tag-list">
+          <li>AutoDock Vina</li><li>GROMACS</li><li>REMD</li><li>SMD</li><li>ADMET</li><li>QM/MM</li><li>Homology Modelling</li>
+        </ul>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-emoji">🌐</div>
+        <h3>Web Development</h3>
+        <p>HTML, CSS and JavaScript for small full-stack apps and interactive tools — see the section below.</p>
+        <ul class="tag-list">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git/GitHub</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- BIOINFORMATICS PROJECTS -->
+  <section class="section projects" id="projects">
+    <h2>Bioinformatics projects</h2>
+    <p class="section-text">
+      Full portfolio and source on
+      <a href="https://github.com/ABHIVEDI11" target="_blank" rel="noopener noreferrer">github.com/ABHIVEDI11</a>.
+    </p>
+
+    <div class="card-grid">
+
+      <article class="project-card">
+        <div class="project-card-icon">🧪</div>
+        <h3>Automated RNA-Seq Pipeline</h3>
+        <p>End-to-end workflow covering QC, trimming, alignment, quantification and differential expression analysis.</p>
+        <ul class="tag-list small">
+          <li>FastQC</li><li>Trimmomatic</li><li>HISAT2 / STAR</li><li>Salmon</li><li>DESeq2</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/NGS_PIPELINE" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-icon">🧬</div>
+        <h3>NGS Pipeline — Read Processing &amp; Variant Calling</h3>
+        <p>Reproducible pipeline for read processing, alignment, and variant/feature calling across NGS data.</p>
+        <ul class="tag-list small">
+          <li>SAMtools</li><li>BEDTools</li><li>Variant Calling</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/NGS_PIPELINE" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-icon">🦠</div>
+        <h3>16S rRNA DADA2 Pipeline</h3>
+        <p>Amplicon sequencing workflow for taxonomic profiling and microbial community analysis.</p>
+        <ul class="tag-list small">
+          <li>DADA2</li><li>R</li><li>Taxonomic Profiling</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/Life-Science" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-icon">⚛️</div>
+        <h3>QM/MM Modelling of Protein–Ligand Systems</h3>
+        <p>Hybrid QM/MM workflow modelling electronic-level interactions at protein active sites.</p>
+        <ul class="tag-list small">
+          <li>QM/MM</li><li>Molecular Modelling</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/QM-MM" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-icon">🧫</div>
+        <h3>Molecular Dynamics Workflows (REMD &amp; SMD)</h3>
+        <p>Enhanced-sampling and steered MD simulations for protein–ligand stability and dissociation pathways.</p>
+        <ul class="tag-list small">
+          <li>GROMACS</li><li>REMD</li><li>SMD</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-icon">🔬</div>
+        <h3>M.Sc. Thesis — AMR Analysis of <em>Salmonella enterica</em></h3>
+        <p>Compiled and analysed 67 genomes; profiled AMR genes and virulence factors, performed MLST typing and
+          phylogenetic reconstruction, then applied ML-based feature engineering.</p>
+        <ul class="tag-list small">
+          <li>CARD</li><li>VFDB</li><li>MAFFT</li><li>FastTree</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- WEB DEVELOPMENT -->
+  <section class="section webdev" id="webdev">
+    <h2>Web development</h2>
+    <p class="section-text">
+      Alongside bioinformatics, I build small full-stack and front-end projects to keep my web development skills
+      sharp. All source code is on
+      <a href="https://github.com/ABHIVEDI11" target="_blank" rel="noopener noreferrer">github.com/ABHIVEDI11</a>.
+    </p>
+
+    <div class="card-grid">
+
+      <article class="project-card webdev-card">
+        <div class="project-card-icon">🎟️</div>
+        <h3>Event Management System</h3>
+        <p>A web application for organizing and managing events end-to-end — creating events, handling registrations,
+          and tracking attendees.</p>
+        <ul class="tag-list small">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/event-management-system" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card webdev-card">
+        <div class="project-card-icon">🏫</div>
+        <h3>School/College Event Management System</h3>
+        <p>A campus-focused build of an event management system, tailored for organizing school and college events.</p>
+        <ul class="tag-list small">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/Project-Building-a-School-College-Event-Management-System" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card webdev-card">
+        <div class="project-card-icon">🧠</div>
+        <h3>Quiz App</h3>
+        <p>An interactive quiz application — questions, scoring, and a simple, clean interface for taking a quiz
+          in the browser.</p>
+        <ul class="tag-list small">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/quiz-app" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card webdev-card">
+        <div class="project-card-icon">⭕</div>
+        <h3>Tic-Tac-Toe Game</h3>
+        <p>A classic two-player Tic-Tac-Toe game built for the browser, focused on clean game-state logic and UI.</p>
+        <ul class="tag-list small">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/Build-a-Tic-Tac-Toe-Game" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & EDUCATION -->
+  <section class="section experience" id="experience">
+    <h2>Experience &amp; education</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-date">Aug 2024 – 2026</div>
+        <div class="timeline-content">
+          <h3>M.Sc. Bioinformatics</h3>
+          <p class="timeline-org">Central University of Himachal Pradesh · CGPA 8.33/10.0 (final semester awaited)</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">Jan 2026 – Jun 2026</div>
+        <div class="timeline-content">
+          <h3>M.Sc. Thesis — AMR Analysis of Salmonella enterica</h3>
+          <p class="timeline-org">Whole-genome sequencing, AMR/virulence profiling, MLST &amp; phylogenetics, ML feature engineering</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">Aug 2025</div>
+        <div class="timeline-content">
+          <h3>Machine Learning Virtual Intern</h3>
+          <p class="timeline-org">CodeAlpha · Supervised learning pipelines (classification &amp; regression) with scikit-learn</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">Jul 2019 – Jun 2022</div>
+        <div class="timeline-content">
+          <h3>B.Sc. Biotechnology</h3>
+          <p class="timeline-org">Amity University, Lucknow Campus · CGPA 9.02/10.0</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">May 2021 – Jul 2022</div>
+        <div class="timeline-content">
+          <h3>Research Contributor — Review Article</h3>
+          <p class="timeline-org">Amity University · Literature review &amp; evidence synthesis on telemedicine in COVID-19 management</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section certifications" id="certifications">
+    <h2>Certifications</h2>
+    <p class="section-text">
+      Click any certificate to open the full-size file. To add your real certificate images, see
+      <code>certificates/README.md</code> in the project folder — it lists the exact filenames each card expects.
+    </p>
+
+    <div class="cert-grid" id="certGrid">
+      <!--
+        HOW THIS WORKS:
+        Each card below points to an image at certificates/<name>.png (a JPG/PNG preview)
+        AND a "full file" link at certificates/<name>.pdf (or .jpg/.png) for the original.
+        Run the included convert-certificates script (see certificates/README.md) after
+        dropping your real files in - it auto-generates the .png preview from your PDF/image
+        so the certificate is visible directly on the page, not just a link.
+        Until a preview image exists, the card shows a placeholder icon instead.
+      -->
+      <a class="cert-card" href="certificates/computational-drug-discovery.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/computational-drug-discovery.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/computational-drug-discovery.png" alt="Computational Drug Discovery certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>Computational Drug Discovery, Docking, MD &amp; QM/MM Approaches</h3>
+          <p>DE·LIFE — May 2026</p>
+        </div>
+      </a>
+
+      <a class="cert-card" href="certificates/genomic-data-science.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/genomic-data-science.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/genomic-data-science.png" alt="Genomic Data Science certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>Genomic Data Science: Tools, Trends &amp; Translation</h3>
+          <p>NIPGR / BRIC India — Mar 2026</p>
+        </div>
+      </a>
+
+      <a class="cert-card" href="certificates/crispr-gene-editing.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/crispr-gene-editing.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/crispr-gene-editing.png" alt="CRISPR and Gene Editing certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>CRISPR &amp; Gene Editing — 3-Day Workshop</h3>
+          <p>Eduvea — Jan 2026</p>
+        </div>
+      </a>
+
+      <a class="cert-card" href="certificates/wgs-rnaseq-workshop.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/wgs-rnaseq-workshop.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/wgs-rnaseq-workshop.png" alt="WGS and RNA-Seq workshop certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>National Workshop on Whole Genome Sequencing &amp; RNA-Seq</h3>
+          <p>BioTecNika — Dec 2025</p>
+        </div>
+      </a>
+
+      <a class="cert-card" href="certificates/cadd-master.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/cadd-master.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/cadd-master.png" alt="CADD Master Certification">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>CADD Master Certification — 20-Day Program</h3>
+          <p>BioTecNika — Jun 2025</p>
+        </div>
+      </a>
+
+      <a class="cert-card" href="certificates/python-bootcamp.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/python-bootcamp.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/python-bootcamp.png" alt="Python Bootcamp certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>Python Bootcamp — Zero to Hero</h3>
+          <p>Udemy / Pierian Training — Jul 2025</p>
+        </div>
+      </a>
+
+      <a class="cert-card" href="certificates/r-for-bioinformatics.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/r-for-bioinformatics.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/r-for-bioinformatics.png" alt="Mastering R for Bioinformatics certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>Mastering R for Bioinformatics</h3>
+          <p>Dr. Omics Labs — May 2025</p>
+        </div>
+      </a>
+
+      <a class="cert-card" href="certificates/bioinformatics-methods-tools.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/bioinformatics-methods-tools.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/bioinformatics-methods-tools.png" alt="Bioinformatics Methods and Tools certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>Bioinformatics Methods &amp; Tools Master Program</h3>
+          <p>BioTecNika — Nov 2024</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-grid">
+      <div class="contact-text">
+        <h2>Let's talk</h2>
+        <p>
+          I'm open to remote positions and relocation. The fastest way to reach me is email —
+          I usually reply within a day or two.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="emoji">📧</span>
+            <a href="mailto:abhishekdwivedi7754@gmail.com">abhishekdwivedi7754@gmail.com</a>
+          </li>
+          <li>
+            <span class="emoji">📱</span>
+            <a href="tel:+917754807231">+91 77548 07231</a>
+          </li>
+          <li>
+            <span class="emoji">📍</span>
+            <span>India — open to remote &amp; relocation</span>
+          </li>
+        </ul>
+
+        <div class="contact-social">
+          <a href="https://github.com/ABHIVEDI11" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/abhivedi7754/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <p class="form-note">This form opens your email client with the message pre-filled — no backend required.</p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Abhishek Dwivedi. Built with HTML, CSS &amp; vanilla JS.</p>
+  <a href="#top" class="back-to-top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
