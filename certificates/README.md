@@ -24,6 +24,8 @@ automatically — no code editing needed.
 | Python Bootcamp — Zero to Hero (Udemy) | `python-bootcamp.pdf` |
 | Mastering R for Bioinformatics (Dr. Omics Labs) | `r-for-bioinformatics.pdf` |
 | Bioinformatics Methods & Tools Master Program (BioTecNika) | `bioinformatics-methods-tools.pdf` |
+| Full Stack Development with AI (Physics Wallah x PwC) | `full-stack-development-ai.png` |
+| Cracking the Coding Interview in Java - Foundation (Physics Wallah) | `java-interview-cracking.pdf` |
 
 If your downloaded file is a **PDF** — keep going to Step 3 to generate a
 preview image. If it's already a **.jpg/.png**, just save it with the same

@@ -25,7 +25,7 @@
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Bioinformatics Projects</a>
-    <a href="#webdev">Web Development</a>
+    <a href="#webdev">Full Stack Development</a>
     <a href="#experience">Experience</a>
     <a href="#certifications">Certifications</a>
     <a href="#contact">Contact</a>
@@ -81,21 +81,30 @@
   <!-- ABOUT -->
   <section class="section about" id="about">
     <h2>About me</h2>
-    <p class="section-text">
-      I work at the intersection of sequencing data and statistical reasoning — RNA-Seq, whole-genome sequencing,
-      variant calling, and multi-omics integration. My pipelines are built in Python and R, designed to be
-      reproducible and clearly documented.
-    </p>
-    <p class="section-text">
-      On the machine-learning side, I work on genomic classification and biomarker-style feature discovery using
-      PCA, Random Forest, SVM and explainable AI. I also carry depth in computational drug discovery — molecular
-      docking, molecular dynamics, and QM/MM modelling.
-    </p>
-    <p class="section-text">
-      Outside the lab, I build small full-stack web apps for fun and practice — see the
-      <a href="#webdev">Web Development</a> section below. I'm currently finishing my M.Sc. in Bioinformatics
-      at the Central University of Himachal Pradesh, and I'm open to remote roles and relocation.
-    </p>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="section-text">
+          I'm a bioinformatics graduate who enjoys turning raw sequencing data into clear, reproducible insight —
+          and I build full-stack web apps on the side.
+        </p>
+        <p class="section-text">
+          My day-to-day work spans RNA-Seq, whole-genome sequencing, variant calling and multi-omics integration,
+          built in Python and R. For my M.Sc. thesis, I analysed 67 <em>Salmonella enterica</em> genomes end to
+          end — AMR and virulence gene profiling, MLST typing, phylogenetics, and machine-learning feature
+          engineering on top of it.
+        </p>
+        <p class="section-text">
+          I also work with machine learning for genomic classification and computational drug discovery
+          (docking, MD, QM/MM), and I build small <a href="#webdev">full-stack web apps</a> for practice.
+          I'm currently finishing my M.Sc. in Bioinformatics at the Central University of Himachal Pradesh, and
+          I'm open to remote roles and relocation.
+        </p>
+      </div>
+      <figure class="about-photo">
+        <img src="images/profile-full.jpg" alt="Abhishek Dwivedi, full portrait">
+      </figure>
+    </div>
   </section>
 
   <!-- SKILLS -->
@@ -237,10 +246,10 @@
 
   <!-- WEB DEVELOPMENT -->
   <section class="section webdev" id="webdev">
-    <h2>Web development</h2>
+    <h2>Full stack development</h2>
     <p class="section-text">
-      Alongside bioinformatics, I build small full-stack and front-end projects to keep my web development skills
-      sharp. All source code is on
+      Alongside bioinformatics, I build full-stack and front-end projects to keep my web development skills
+      sharp — from React/Next.js apps to vanilla HTML/CSS/JS tools. All source code is on
       <a href="https://github.com/ABHIVEDI11" target="_blank" rel="noopener noreferrer">github.com/ABHIVEDI11</a>.
     </p>
 
@@ -286,6 +295,50 @@
           <li>HTML</li><li>CSS</li><li>JavaScript</li>
         </ul>
         <a class="project-link" href="https://github.com/ABHIVEDI11/Build-a-Tic-Tac-Toe-Game" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card webdev-card">
+        <div class="project-card-icon">🔐</div>
+        <h3>Animated Login Page</h3>
+        <p>A responsive login/sign-up screen with smooth CSS transitions and micro-interactions for a polished
+          user experience.</p>
+        <ul class="tag-list small">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/animated-login-page" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card webdev-card">
+        <div class="project-card-icon">🛒</div>
+        <h3>E-Commerce Website</h3>
+        <p>A front-end e-commerce storefront with product listings, a shopping cart flow, and a responsive
+          layout across devices.</p>
+        <ul class="tag-list small">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/ecommerce-website" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card webdev-card">
+        <div class="project-card-icon">⚡</div>
+        <h3>Next.js Server Actions Demo</h3>
+        <p>A hands-on exploration of Next.js Server Actions for handling form submissions and mutations without
+          writing separate API routes.</p>
+        <ul class="tag-list small">
+          <li>Next.js</li><li>React</li><li>Server Actions</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/nextjs-server-actions" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </article>
+
+      <article class="project-card webdev-card">
+        <div class="project-card-icon">🖥️</div>
+        <h3>Personal Portfolio Website</h3>
+        <p>This very site — a hand-built, framework-free portfolio showcasing my bioinformatics and web
+          development work.</p>
+        <ul class="tag-list small">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+        <a class="project-link" href="https://github.com/ABHIVEDI11/abhishek-portfolio" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
       </article>
 
     </div>
@@ -358,6 +411,28 @@
         so the certificate is visible directly on the page, not just a link.
         Until a preview image exists, the card shows a placeholder icon instead.
       -->
+      <a class="cert-card" href="certificates/full-stack-development-ai.png" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/full-stack-development-ai.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/full-stack-development-ai.png" alt="Full Stack Development with AI certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>Full Stack Development with AI</h3>
+          <p>Physics Wallah × PwC — Jul 2026</p>
+        </div>
+      </a>
+
+      <a class="cert-card" href="certificates/java-interview-cracking.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/java-interview-cracking.png">
+        <div class="cert-thumb">
+          <img data-cert-img src="certificates/java-interview-cracking.png" alt="Cracking the Coding Interview in Java certificate">
+          <div class="cert-thumb-fallback">📜</div>
+        </div>
+        <div class="cert-info">
+          <h3>Cracking the Coding Interview in Java — Foundation</h3>
+          <p>Physics Wallah — Jul 2026</p>
+        </div>
+      </a>
+
       <a class="cert-card" href="certificates/computational-drug-discovery.pdf" target="_blank" rel="noopener noreferrer" data-cert data-preview="certificates/computational-drug-discovery.png">
         <div class="cert-thumb">
           <img data-cert-img src="certificates/computational-drug-discovery.png" alt="Computational Drug Discovery certificate">

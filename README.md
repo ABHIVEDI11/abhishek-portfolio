@@ -10,7 +10,8 @@ index.html      -> the whole page (content + structure)
 styles.css       -> all the styling/design
 script.js        -> small bits of interactivity (mobile menu, contact form, cert previews)
 images/
-  profile.jpg    -> your photo, already cropped for the hero section
+  profile.jpg      -> your photo, cropped square for the hero section
+  profile-full.jpg -> the same photo, uncropped, shown in the About section
 certificates/
   README.md               -> exact filenames to use, and how to add real cert files
   convert-certificates.py  -> turns your certificate PDFs into preview images automatically
