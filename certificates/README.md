@@ -26,6 +26,10 @@ automatically — no code editing needed.
 | Bioinformatics Methods & Tools Master Program (BioTecNika) | `bioinformatics-methods-tools.pdf` |
 | Full Stack Development with AI (Physics Wallah x PwC) | `full-stack-development-ai.png` |
 | Cracking the Coding Interview in Java - Foundation (Physics Wallah) | `java-interview-cracking.pdf` |
+| AI in Genomics & Healthcare with Python (DE·LIFE) | `ai-genomics-healthcare-python.pdf` |
+| Drug-Likeness Filtering, Molecular Docking & ADMET Prediction (Discovery Boulevard) | `admet-drug-discovery-workshop.jpg` |
+| Proteins: Sequence, Structure & Function 2nd Edition (DE·LIFE) | `protein-sequence-structure-function.jpg` |
+| Bioinformatics Training — Springfest, IIT Kharagpur (EduFabrica) | `springfest-bioinformatics-iitkgp.png` |
 
 If your downloaded file is a **PDF** — keep going to Step 3 to generate a
 preview image. If it's already a **.jpg/.png**, just save it with the same
